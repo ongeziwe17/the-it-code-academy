@@ -86,6 +86,22 @@ This project highlighted the importance of:
 
 ---
 
+## Assignment 7: GitHub Project Templates and Kanban Board Implementation Objective
+
+This assignment turned out to be more challenging and insightful than I expected. Evaluating all eight GitHub templates forced me to think critically about what our THE IT CODE ACADEMY project actually needs on a day-to-day basis, not just what looks good on paper.
+
+At first I was leaning toward “Team planning” or “Iterative development” because they sounded structured. But after testing them, I realised the plain **Kanban** template gave me the best balance of simplicity and automation. The biggest challenge was deciding what custom columns to add. I wanted them to feel natural to an education platform rather than just random additions for the assignment. Choosing “Code Review”, “Testing”, and “Blocked” took real thought — I wanted the board to support quality and visibility, not just task movement.
+
+Comparing GitHub’s templates to other tools I’ve used:
+- **Trello** is more visual and fun for quick brainstorming, but it doesn’t connect directly to GitHub Issues and pull requests.
+- **Jira** is extremely powerful with reporting, epics, and velocity tracking, but it feels heavy, expensive, and over-engineered for a student project like ours.
+
+GitHub Projects strikes the perfect middle ground — it’s free, lives inside our repository, connects seamlessly to our Issues and PRs, and still feels professional enough for real-world Agile work.
+
+Overall, this assignment pushed me to move from “just using GitHub” to thinking like a real project manager. I now have a customised board that I can continue evolving as THE IT CODE ACADEMY grows. The experience also taught me the importance of balancing automation with practical customisation. I feel much more confident managing Agile workflows going forward.
+
+---
+
 ## Conclusion
 
 THE IT CODE ACADEMY project demonstrates a complete software design process, from initial system specification to requirements, use cases, and testing.
