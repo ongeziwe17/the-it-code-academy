@@ -31,14 +31,14 @@ This combination gives me the best of both worlds: GitHub’s smart automation p
 ### Template Comparison Screenshots
 Here are screenshots of the default layout of every template I evaluated:
 
-- ![Team Planning](screenshots/Team_Planning.png)  
-- ![Kanban](screenshots/Kanban.png)  
-- ![Feature Release](screenshots/Feature_Release.png)  
-- ![Bug Tracker](screenshots/Bug_Tracker.png)  
-- ![Iterative Development](screenshots/Iterative_Development.png)  
-- ![Product Launch](screenshots/Product_Launch.png)  
-- ![Roadmap](screenshots/Roadmap.png)  
-- ![Team Retrospective](screenshots/Team_Retrospective.png)
+- ![Team Planning](Screenshots/Team_Planning.png)  
+- ![Kanban](Screenshots/Kanban.png)  
+- ![Feature Release](Screenshots/Feature_Release.png)  
+- ![Bug Tracker](Screenshots/Bug_Tracker.png)  
+- ![Iterative Development](Screenshots/Iterative_Development.png)  
+- ![Product Launch](Screenshots/Product_Launch.png)  
+- ![Roadmap](Screenshots/Roadmap.png)  
+- ![Team Retrospective](Screenshots/Team_Retrospective.png)
 
 ---
 
