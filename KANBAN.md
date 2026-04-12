@@ -39,7 +39,7 @@ I added **three new columns** to better reflect real development stages for THE 
 These columns go beyond the default template and directly address the quality needs of an educational platform.
 
 **Screenshot of the customized Kanban board**  
-*(Insert your screenshot here – it should clearly show the three new columns, linked issues, @keo-codes assignments, and labels)*
+*Screenshort*
 
 **README Section – Why I customized the board this way**  
 I started from the Automated Kanban template because its automation aligns perfectly with our Agile process from Assignment 6. However, the default columns didn’t fully capture the quality-focused workflow we need when building learning content.  
