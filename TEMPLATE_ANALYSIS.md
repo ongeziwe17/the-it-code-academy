@@ -6,15 +6,26 @@ I compared four templates that seemed most relevant:
 
 ### Comparison Table
 
-| Template              | Columns / Workflow                                      | Automation Features                                      | Suitability for THE IT CODE ACADEMY (Agile Education Platform) | Score (out of 10) |
-|-----------------------|---------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------------|-------------------|
-| Basic Kanban          | To Do, In Progress, Done                                | None – completely manual                                 | Too simple; I would spend too much time manually moving cards every day | 6/10 |
-| Automated Kanban      | To Do, In Progress, Review, Done                        | Automatic card movement when issues are opened, closed, or PRs are merged | Excellent – matches our sprint workflow and reduces admin work | **9.5/10** |
-| Bug Triage            | New, Needs Info, Triaged, In Progress, Done             | Auto-labelling, assignment rules, triage workflows       | Too narrowly focused on bugs; not suitable for feature development and lesson creation | 4/10 |
-| Team Planning         | Backlog, Planning, In Progress, Review, Done            | Custom fields, priority sorting, planning views          | Strong for planning phases but weaker on automation during active sprints | 8/10 |
+For this assignment I opened GitHub Projects and carefully evaluated **all eight** templates that appeared. I wanted something that would genuinely support the Agile development of THE IT CODE ACADEMY — an educational platform with user stories, sprints, lesson content, quizzes, and strict quality needs — rather than just picking the first one that looked nice.
+
+### Full Comparison of All Available GitHub Project Templates
+
+| Template                | Default Columns / Workflow                                      | Automation Features                                      | Best For                                              | Suitability for THE IT CODE ACADEMY (Agile Education Platform) | Score (out of 10) |
+|-------------------------|-----------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------|-------------------|
+| Team planning           | Backlog → Planning → In Progress → Review → Done               | Custom fields, priority sorting                          | Long-term planning & roadmapping                      | Good for initial backlog grooming                          | 8/10 |
+| Kanban                  | To Do → In Progress → Review → Done                             | Auto-move cards when issues/PRs are opened/closed/merged | Sprint-based development with GitHub Issues           | **Excellent** – matches our sprint workflow perfectly      | **9.5/10** |
+| Feature release         | Backlog → In Progress → Review → Released → Done               | Release tracking, milestone linking                      | Managing feature launches                             | Useful but too release-focused for daily development       | 7/10 |
+| Bug Tracker             | New → Needs Info → Triaged → In Progress → Done                | Auto-labelling, triage rules, assignment suggestions     | Bug-heavy support or maintenance projects             | Low – too narrowly focused on bugs                         | 4/10 |
+| Iterative development   | Backlog → Iteration → In Progress → Review → Done              | Iteration/sprint tracking                                | Teams working in short iterations                     | Very strong – close second to Kanban                       | 9/10 |
+| Product launch          | Idea → Research → Design → Development → Launch → Done         | Launch checklist fields                                  | Big product launches                                  | Too high-level and marketing-oriented                      | 5/10 |
+| Roadmap                 | Now → Next → Later → Done                                       | Timeline/roadmap view                                    | High-level product strategy                           | Good for long-term vision but weak for daily tasks         | 6/10 |
+| Team retrospective      | What went well → What to improve → Action items                | Retrospective-specific fields                            | Post-sprint reflection meetings                       | Only useful occasionally, not for ongoing work             | 3/10 |
 
 **Justification for my choice**  
-I selected the **Automated Kanban** template because our “THE IT CODE ACADEMY BACKLOG” project was already based on it from Assignment 6. The built-in automation is a game-changer for me as a solo developer/student: when I close an issue or merge a pull request, the card moves automatically. This keeps the board accurate without extra effort and directly supports the Agile principle of continuous delivery.
+I chose the **Kanban** template because it is the most practical and powerful fit for THE IT CODE ACADEMY. Our project follows a clear sprint cycle (user stories → development → review → testing → done), and the built-in automation (cards automatically moving when issues or pull requests change status) saves me a huge amount of manual work.  
 
-The default template was good, but it didn’t fully reflect the quality steps needed for an educational platform (where accuracy in quizzes and lesson content is critical). That’s why I customised it by adding three new columns (see Custom Kanban Board section). This combination gives me the best of both worlds: automation from GitHub plus a workflow tailored to our specific needs. It feels professional and practical, not just an assignment requirement.
+Our existing “THE IT CODE ACADEMY BACKLOG” project was already created from this template in Assignment 6, so reusing it shows strong continuity. The default columns were good, but they didn’t fully capture the quality steps an educational platform needs (accuracy in lessons and quizzes is critical). That is why I customised the board by adding three new columns — **Code Review**, **Testing**, and **Blocked** (see the Custom Kanban Board section).  
+
+This combination gives me the best of both worlds: GitHub’s smart automation plus a workflow that is truly tailored to building a reliable learning platform. It directly supports Agile principles of visibility, flow, and continuous improvement while staying simple enough for a solo/student developer.
+
 
