@@ -65,6 +65,41 @@ THE-IT-CODE-ACADEMY
     └── component-diagram.png
 ```
 ---
+
+## Agile Project Management (Assignment 7)
+
+This project applies Agile principles using GitHub Projects to simulate a real-world development workflow.
+
+### Tools Used
+- GitHub Projects (Kanban board)
+- GitHub Issues (User Stories)
+- Labels & Milestones (Sprint Planning)
+
+### Workflow Overview
+
+The project follows a Kanban-based workflow with the following stages:
+
+- Backlog → Planned work
+- Ready → Tasks prepared for development
+- In Progress → Active development
+- Testing → Quality assurance phase
+- Blocked → Tasks delayed due to dependencies
+- Done → Completed work
+
+### Key Features
+
+- Automated issue tracking using GitHub
+- Clear visualization of task progress
+- Work-in-progress limits to improve focus
+- Real-time project visibility
+
+This setup reflects industry-standard Agile practices and demonstrates practical implementation beyond theoretical concepts.
+
+## Documentation
+- [Stakeholder Analysis Table](STAKEHOLDER-ANALYSIS.md)
+- [System Requirements Document (SRD)](SYSTEM-REQUIREMENTS.md)
+- [Reflection on Stakeholder Needs](REFLECTION.md)
+
 ## Author
 
 Student: Keorapetse Makhubo  
@@ -72,8 +107,3 @@ Course: Software Engineering
 Project: System Specification and Architectural Modeling
 
 ---
-
-## Documentation
-- [Stakeholder Analysis Table](STAKEHOLDER-ANALYSIS.md)
-- [System Requirements Document (SRD)](SYSTEM-REQUIREMENTS.md)
-- [Reflection on Stakeholder Needs](REFLECTION.md)
