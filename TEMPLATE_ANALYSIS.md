@@ -42,3 +42,19 @@ Here are screenshots of the default layout of every template I evaluated:
 
 ---
 
+### README Section – Customization Choices
+
+I started with the default **Kanban** template because it already existed in our repository from Assignment 6. However, the default columns (To Do → In Progress → Review → Done) did not fully support the quality-focused workflow needed for an educational platform like the IT Code Academy.
+
+To make the board more practical and aligned with real development needs, I added **three new columns**:
+
+- **Code Review** – Added so every user story (especially lesson content and quiz features) receives a second pair of eyes before going live. This aligns with best practices for educational software where accuracy is critical.
+- **Testing** – Added to ensure student-facing features are thoroughly validated before they reach real users. This prevents bugs from reaching the learners and aligns with QA requirements.
+- **Blocked** – Added to make any stalled tasks immediately visible (for example, waiting for instructor content approval or payment gateway issues).
+
+I also populated the board with the exact 6 user stories from my Assignment 6 Sprint 1 plan, linked each GitHub Issue, assigned tasks using `@keo-codes`, and applied consistent labels (`user-story`, `enhancement`, `must-have`).
+
+This customization transforms the standard Kanban template into a tailored, professional Agile board that I can actually use every day while building THE IT CODE ACADEMY MVP.
+
+**Screenshot of the customised Kanban board:**  
+![Custom Kanban Board - Sprint 1](Screenshots/Kanban.png)
