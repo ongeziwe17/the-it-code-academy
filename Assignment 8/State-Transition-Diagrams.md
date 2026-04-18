@@ -33,7 +33,7 @@
 * **How it maps to requirements**: Supports instructor-side quiz management in **FR-003** (Quiz Management) and **UC: Create Quiz**. Aligns with **US-007**.
 
 ## 5. Quiz Attempt State Transition Diagram
-![Quiz Attempt State Transition Diagram](Object-State-Modeling%20Screenshots/quiz-attempt.png)
+![Quiz Attempt State Transition Diagram](Object-State-Modeling%20Screenshots/attempt-quiz.png)
 
 **Detailed Explanation**  
 * **Key States**: NotStarted, InProgress, Submitted, Graded, Passed, Failed.  
