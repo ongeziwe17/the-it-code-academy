@@ -68,8 +68,8 @@ THE-IT-CODE-ACADEMY
 ---
 ## Assignment 8: Object State Modeling and Activity Workflow Modeling
 
-- **[State Transition Diagrams + Editable draw.io files](/Assignment%208/STATE_TRANSITION_DIAGRAMS.md)**  
-- **[Activity Diagrams + Editable draw.io files](Assignment%208/ACTIVITY_DIAGRAMS.md)**  
+- **[State Transition Diagrams + Editable draw.io files](Assignment%208/State-Transition-Diagrams.md)**  
+- **[Activity Diagrams + Editable draw.io files](Assignment%208/Activity-Workflow-Diagrams.md)**  
 - **[Traceability & Integration with Prior Work](Assignment%208/TRACEABILITY_INTEGRATION.md)**  
 - **[Reflection](Assignment%208/ASSIGNMENT8_REFLECTION.md)**
 
