@@ -7,7 +7,7 @@
 * **Key States**: Unregistered, PendingVerification, Active, Suspended, Deactivated.  
 * **Key Transitions & Events**: Registration with guard (email unique), email verification, admin suspension/reactivation, user deactivation.  
 * **How it maps to requirements**: Directly models the full lifecycle in **FR-001** (Create User Account & Authenticate User) and **UC: Create User Account**. Supports **US-001** from AGILE-PLANNING.md by ensuring secure onboarding for students in underserved communities. The PendingVerification state prevents fake accounts.
-**[Open Editable draw.io File](Object-State-Modeling%20Drawio%20Files/user-account.draw.io)**
+**[Open Editable draw.io File](https://app.diagrams.net/#Hkeo-codes/the-it-code-academy/main/Assignment%208/Object-State-Modeling%20Drawio%20Files/user-account.draw.io)**
 
 ## 2. Course State Transition Diagram
 ![Course State Transition Diagram](Object-State-Modeling%20Screenshots/course.png)
@@ -16,7 +16,7 @@
 * **Key States**: Draft, Published, Archived.  
 * **Key Transitions & Events**: Publish only when content is complete (guard condition), archive, republish, or delete.  
 * **How it maps to requirements**: Matches **FR-002** (Course Management – create, publish, browse) and **UC: Create Course**. Supports **US-006** so instructors can control when courses go live, giving students reliable, high-quality content.
-**[Open Editable draw.io File](Object-State-Modeling%20Drawio%20Files/course.draw.io)**
+**[Open Editable draw.io File](https://app.diagrams.net/#Hkeo-codes/the-it-code-academy/main/Assignment%208/Object-State-Modeling%20Drawio%20Files/course.draw.io)**
   
 ## 3. Enrollment State Transition Diagram
 ![Enrollment State Transition Diagram](Object-State-Modeling%20Screenshots/enrollment.png)
