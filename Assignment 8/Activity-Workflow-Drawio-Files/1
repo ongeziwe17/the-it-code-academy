@@ -1,1 +1,16 @@
-
+## 1. Create User Account (Swimlanes: Student, System)
+```mermaid
+flowchart TD
+    subgraph Student
+        A[Start: Fill form] --> B[Submit registration]
+    end
+    subgraph System
+        B --> C{Email unique?}
+        C -->|Yes| D[Send verification email]
+        C -->|No| E[Show error]
+        D --> F[User clicks link]
+        F --> G{Link valid?}
+        G -->|Yes| H[Activate account]
+        G -->|No| I[Show expired]
+        H --> J[End: Account active]
+    end
