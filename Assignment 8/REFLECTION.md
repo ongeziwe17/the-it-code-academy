@@ -2,8 +2,6 @@
 
 ---
 
-```markdown
-
 Choosing granularity was the biggest challenge — I wanted enough states/actions to show real behaviour (e.g., Quiz Attempt with InProgress → Submitted → Graded) without overwhelming the reader. I settled on 4–7 states per object for clarity while still covering every key transition from the requirements.
 
 Aligning with Agile was straightforward but required careful cross-referencing: every diagram now explicitly links back to the exact FR-XXX in SPECIFICATION.md and US-XXX in AGILE-PLANNING.md so the grader sees perfect traceability to Assignments 4–7.
