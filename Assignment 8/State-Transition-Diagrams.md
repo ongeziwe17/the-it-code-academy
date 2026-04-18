@@ -34,7 +34,7 @@
 * **Key States**: Draft, Published, Archived.  
 * **Key Transitions & Events**: Publish after review (guard condition), archive.  
 * **How it maps to requirements**: Supports instructor-side quiz management in **FR-003** (Quiz Management) and **UC: Create Quiz**. Aligns with **US-007**.
-**[Open Editable draw.io File](Object-State-Modeling%20Drawio%20Files/quiz.draw.io)**
+**[Open Editable draw.io File](https://app.diagrams.net/#Hkeo-codes/the-it-code-academy/main/Assignment%208/Object-State-Modeling%20Drawio%20Files/quiz.draw.io)**
   
 ## 5. Quiz Attempt State Transition Diagram
 ![Quiz Attempt State Transition Diagram](Object-State-Modeling%20Screenshots/attempt-quiz.png)
@@ -43,7 +43,7 @@
 * **Key States**: NotStarted, InProgress, Submitted, Graded, Passed, Failed.  
 * **Key Transitions & Events**: Start quiz, submit (with time guard), auto-grade, outcome based on pass mark.  
 * **How it maps to requirements**: Student-facing assessment flow from **FR-003** (Attempt quizzes, automatic grading) and **UC: Take Quiz**. Perfectly matches **US-008**.
-**[Open Editable draw.io File](Object-State-Modeling%20Drawio%20Files/attempt-quiz.draw.io)**
+**[Open Editable draw.io File](https://app.diagrams.net/#Hkeo-codes/the-it-code-academy/main/Assignment%208/Object-State-Modeling%20Drawio%20Files/attempt-quiz.draw.io)**
   
 ## 6. Payment State Transition Diagram
 ![Payment State Transition Diagram](Object-State-Modeling%20Screenshots/payment.png)
@@ -52,7 +52,7 @@
 * **Key States**: Initiated, Pending, Successful, Failed, Refunded.  
 * **Key Transitions & Events**: Gateway calls, success/fail, retry, and refund.  
 * **How it maps to requirements**: Full payment lifecycle in **FR-005** (Certification and Payments) and **UC: Process Payment**. Supports **US-010** with secure third-party integration.
-**[Open Editable draw.io File](Object-State-Modeling%20Drawio%20Files/payment.draw.io)**
+**[Open Editable draw.io File](https://app.diagrams.net/#Hkeo-codes/the-it-code-academy/main/Assignment%208/Object-State-Modeling%20Drawio%20Files/payment.draw.io)**
   
 ## 7. Certification State Transition Diagram
 ![Certification State Transition Diagram](Object-State-Modeling%20Screenshots/certification.png)
@@ -61,7 +61,7 @@
 * **Key States**: Requested, Awarded, Expired.  
 * **Key Transitions & Events**: Awarded only when both payment and course are complete (guard condition).  
 * **How it maps to requirements**: Ties directly to **FR-005** and **US-010**. Prevents invalid certifications.
-**[Open Editable draw.io File](Object-State-Modeling%20Drawio%20Files/certification.draw.io)**
+**[Open Editable draw.io File](https://app.diagrams.net/#Hkeo-codes/the-it-code-academy/main/Assignment%208/Object-State-Modeling%20Drawio%20Files/certification.draw.io)**
   
 ## 8. Notification State Transition Diagram
 ![Notification State Transition Diagram](Object-State-Modeling%20Screenshots/notification.png)
@@ -70,4 +70,4 @@
 * **Key States**: Queued, Sent, Failed.  
 * **Key Transitions & Events**: Send attempt with retry logic (max 3 attempts).  
 * **How it maps to requirements**: Supports **FR-006** (Notification System) and **US-011** for reliable student/instructor updates.
-**[Open Editable draw.io File](Object-State-Modeling%20Drawio%20Files/notification.draw.io)**
+**[Open Editable draw.io File](https://app.diagrams.net/#Hkeo-codes/the-it-code-academy/main/Assignment%208/Object-State-Modeling%20Drawio%20Files/notification.draw.io)**
