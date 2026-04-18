@@ -71,7 +71,7 @@ THE-IT-CODE-ACADEMY
 - **[State Transition Diagrams + Editable draw.io files](Assignment%208/State-Transition-Diagrams.md)**  
 - **[Activity Diagrams + Editable draw.io files](Assignment%208/Activity-Workflow-Diagrams.md)**  
 - **[Traceability & Integration with Prior Work](Assignment%208/TRACEABILITY_INTEGRATION.md)**  
-- **[Reflection](Assignment%208/ASSIGNMENT8_REFLECTION.md)**
+- **[Reflection](Assignment%208/REFLECTION.md)**
 
 All diagrams are fully mapped to functional requirements (Assignment 4), use cases (Assignment 5), and Agile user stories (Assignment 6).
 
