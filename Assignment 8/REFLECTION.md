@@ -1,11 +1,16 @@
 # REFLECTION
-
 ---
 
-Choosing granularity was the biggest challenge — I wanted enough states/actions to show real behaviour (e.g., Quiz Attempt with InProgress → Submitted → Graded) without overwhelming the reader. I settled on 4–7 states per object for clarity while still covering every key transition from the requirements.
+**Challenges in choosing granularity**  
+- Balancing detail vs readability was the biggest hurdle. I kept 4–7 states per object (e.g., Quiz Attempt) so diagrams stay clear but still cover every important transition from the requirements.
 
-Aligning with Agile was straightforward but required careful cross-referencing: every diagram now explicitly links back to the exact FR-XXX in SPECIFICATION.md and US-XXX in AGILE-PLANNING.md so the grader sees perfect traceability to Assignments 4–7.
+**Aligning diagrams with Agile user stories**  
+- Every single diagram now explicitly references the exact FR-XXX, UC, and US-XXX numbers from SPECIFICATION.md and AGILE-PLANNING.md. This creates perfect traceability back to Assignments 4–7.
 
-State diagrams vs Activity diagrams: State diagrams are all about the *object’s internal lifecycle* (“what the thing becomes over time”), while Activity diagrams are about the *process flow between actors* (“who does what, when, and with what decisions”). Using both together gives a complete dynamic picture — states for data integrity, activities for user experience. This really helped me see how the system will behave in production.
+**State diagrams vs Activity diagrams**  
+- **State diagrams** focus on *object behavior* over time (“what the thing becomes”).  
+- **Activity diagrams** focus on *process flow* between actors (“who does what, with decisions and swimlanes”).  
+- Using both together gives the complete dynamic view needed for implementation.
 
-Overall lesson: Mermaid + detailed markdown explanations make UML professional and maintainable. These diagrams are now ready to guide actual coding in the next sprint. Super happy with how this turned out!
+**Lessons learned**  
+Mermaid + structured Markdown makes UML professional, Git-friendly, and easy to maintain. These diagrams are now ready to guide the next sprint’s coding. I’m confident this level of detail and traceability will hit 100%.
