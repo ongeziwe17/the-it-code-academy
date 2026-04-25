@@ -65,7 +65,6 @@ THE-IT-CODE-ACADEMY
     └── component-diagram.png
 ```
 ---
----
 ## Assignment 8: Object State Modeling and Activity Workflow Modeling
 
 - **[State Transition Diagrams + Editable draw.io files](Assignment%208/State-Transition-Diagrams.md)**  
@@ -75,7 +74,6 @@ THE-IT-CODE-ACADEMY
 
 All diagrams are fully mapped to functional requirements (Assignment 4), use cases (Assignment 5), and Agile user stories (Assignment 6).
 
----
 ---
 
 ## Assignment 9: Domain Modeling and Class Diagram
@@ -97,7 +95,7 @@ Completed a detailed domain model with 6 key entities, business rules, and a com
 All files are ready for review.
 
 ---
----
+
 ## Author
 
 Student: Keorapetse Makhubo  
