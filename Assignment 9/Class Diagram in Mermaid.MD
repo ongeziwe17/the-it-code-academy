@@ -1,6 +1,16 @@
 # CLASS DIAGRAM IN MERMAID.js
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 
+  'background': '#000000',
+  'mainBkg': '#1a1a1a',
+  'primaryColor': '#1a1a1a',
+  'primaryBorderColor': '#ffffff',
+  'secondaryBorderColor': '#ffffff',
+  'lineColor': '#ffffff',
+  'textColor': '#ffffff',
+  'classText': '#ffffff'
+}}}%%
 classDiagram
     class User {
         -userId: String
