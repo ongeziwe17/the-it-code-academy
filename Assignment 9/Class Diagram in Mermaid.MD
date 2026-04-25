@@ -88,3 +88,11 @@ classDiagram
     Course "1" o-- "0..*" Assessment : includes
     Instructor "1" -- "0..*" Course : teaches
     Student "1" -- "0..*" Assessment : takes
+
+### Key Design Decisions
+
+- Inheritance is used for Student and Instructor to reuse common User behaviour while allowing role-specific features.
+- Composition is applied to the Course-Lesson relationship because lessons cannot exist without a course.
+- Enrollment acts as an association class to properly manage the many-to-many relationship between Student and Course, including progress tracking.
+- Multiplicities are based on business rules (e.g., maximum 5 active courses per student).
+- The diagram is clean, UML-compliant, and directly supports all major use cases from previous assignments.
