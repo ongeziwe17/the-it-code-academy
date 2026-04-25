@@ -81,7 +81,7 @@ All diagrams are fully mapped to functional requirements (Assignment 4), use cas
 **Deliverables** (located in the `Assignment 9` folder):
 
 - **[Domain Model](Assignment%209/Domain%20Model.MD)**  
-- **[Class Diagram in Mermaid](Assignment%209/Class%20Diagram%20in%20Mermaid.MD)** (with dark theme)  
+- **[Class Diagram in Mermaid](Assignment%209/Class%20Diagram%20in%20Mermaid.MD)**  
 - **[Reflection](Assignment%209/Reflection.MD)**
 
 **Overview**  
