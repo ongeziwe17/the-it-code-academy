@@ -88,6 +88,8 @@ classDiagram
     Course "1" o-- "0..*" Assessment : includes
     Instructor "1" -- "0..*" Course : teaches
     Student "1" -- "0..*" Assessment : takes
+```
+---
 
 ### Key Design Decisions
 
