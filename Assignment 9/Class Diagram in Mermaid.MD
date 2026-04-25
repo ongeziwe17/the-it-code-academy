@@ -7,7 +7,7 @@
   'primaryColor': '#1a1a1a',
   'primaryBorderColor': '#ffffff',
   'secondaryBorderColor': '#ffffff',
-  'lineColor': '#00000',
+  'lineColor': '#000000',
   'textColor': '#ffffff',
   'classText': '#ffffff'
 }}}%%
