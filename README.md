@@ -65,6 +65,36 @@ THE-IT-CODE-ACADEMY
     └── component-diagram.png
 ```
 ---
+## Assignment 8: Object State Modeling and Activity Workflow Modeling
+
+- **[State Transition Diagrams + Editable draw.io files](Assignment%208/State-Transition-Diagrams.md)**  
+- **[Activity Diagrams + Editable draw.io files](Assignment%208/Activity-Workflow-Diagrams.md)**  
+- **[Traceability & Integration with Prior Work](Assignment%208/TRACEABILITY_INTEGRATION.md)**  
+- **[Reflection](Assignment%208/REFLECTION.md)**
+
+All diagrams are fully mapped to functional requirements (Assignment 4), use cases (Assignment 5), and Agile user stories (Assignment 6).
+
+---
+
+## Assignment 9: Domain Modeling and Class Diagram
+
+**Deliverables** (located in the `Assignment 9` folder):
+
+- **[Domain Model](Assignment%209/Domain%20Model.MD)**  
+- **[Class Diagram in Mermaid](Assignment%209/Class%20Diagram%20in%20Mermaid.MD)**  
+- **[Reflection](Assignment%209/Reflection.MD)**
+
+**Overview**  
+Completed a detailed domain model with 6 key entities, business rules, and a comprehensive UML class diagram using Mermaid.js. The design includes inheritance (Student/Instructor), composition (Course-Lesson), and an association class (Enrollment) to track progress — fully aligned with prior assignments.
+
+**Key Highlights**  
+- Maximum 5 active courses per student enforced  
+- Clear separation of responsibilities  
+- Dark-themed class diagram for better visibility  
+
+All files are ready for review.
+
+---
 
 ## Author
 
