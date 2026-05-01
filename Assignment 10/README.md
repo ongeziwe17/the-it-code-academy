@@ -57,6 +57,8 @@ pip install -r requirements.txt
 py -m pytest tests/ -v --cov=src --cov=creational_patterns
 ```
 ## Project Structure
+
+```
 Assignment 10/
 ├── src/                    # Core domain classes
 ├── creational_patterns/    # All 6 creational patterns
