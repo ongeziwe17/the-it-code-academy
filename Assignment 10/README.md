@@ -47,6 +47,6 @@ Unit tests will be added in the `/tests` directory using `pytest`. Tests cover o
 cd Assignment\ 10
 pip install -r requirements.txt
 python -m pytest tests/ -v --cov
+```
 
-
-## Design Rationale: ##  All patterns were chosen to demonstrate real-world usage in an e-learning platform while staying true to the original UML class diagram.
+**Design Rationale:**  All patterns were chosen to demonstrate real-world usage in an e-learning platform while staying true to the original UML class diagram.
