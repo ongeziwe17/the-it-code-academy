@@ -1,52 +1,67 @@
-# ASSIGNMENT 10: FROM CLASS DIAGRAM TO CODE WITH ALL CREATIONAL PATTERNS
+# ASSIGNMENT 10: FROM CLASS DIAGRAMS TO CODE WITH ALL CREATIONAL PATTERNS
 
-## Project Overview
-This folder contains the implementation of **THE IT CODE ACADEMY** system based on the UML Class Diagram from Assignment 9.
+## Overview
+This folder contains the complete implementation of **THE IT CODE ACADEMY** system, translated from the UML Class Diagram (Assignment 9) into working Python code, along with all six creational design patterns and comprehensive unit tests.
 
-**Language Chosen**: Python  
-**Reason**: Python was selected because it is clean, readable, beginner-friendly, and ideal for an educational platform like THE IT CODE ACADEMY. It also has excellent support for design patterns and unit testing with `pytest`.
+**Language Chosen**: Python 3  
+**Reason for choosing Python**: Python was selected for its readability, simplicity, and suitability for an educational platform aimed at teaching programming to beginners. It also provides excellent support for design patterns and testing with `pytest`.
 
 ## 1. Class Implementation (`/src`)
 
-I have successfully translated the Mermaid.js Class Diagram into working Python code.
+I have faithfully translated the Mermaid.js Class Diagram into clean, object-oriented Python code.
 
-**Classes Implemented:**
+**Implemented Classes:**
 - `User` (Abstract Base Class)
-- `Student` (inherits from User)
-- `Instructor` (inherits from User)
+- `Student` (inherits from `User`)
+- `Instructor` (inherits from `User`)
 - `Course`
-- `Lesson` (Composition with Course)
+- `Lesson` (Composition relationship with Course)
 - `Enrollment` (Association class between Student and Course)
 
 **Key Design Decisions:**
-- Used abstract base class (`ABC`) for `User` to enforce the `get_role()` method.
-- Implemented business rule: Students can enroll in maximum **5 active courses**.
-- Used composition for `Course` → `Lesson` relationship.
-- Used properties for encapsulation (getters).
+- Used `ABC` (Abstract Base Class) to enforce `get_role()` method.
+- Encapsulation using private attributes with `@property` getters.
+- Enforced business rule: A student cannot enroll in more than **5 active courses**.
+- Proper implementation of inheritance, composition, and association relationships.
 
-## 2. Creational Patterns Implementation (`/creational_patterns`)
+## 2. Creational Patterns (`/creational_patterns`)
 
-All six creational design patterns have been implemented with clear, academy-relevant use cases:
+All six major creational design patterns have been implemented with clear, context-relevant examples for an e-learning platform:
 
-| Pattern              | Use Case in THE IT CODE ACADEMY                        | Justification |
-|----------------------|----------------------------------------------------------|-------------|
-| **Simple Factory**   | Creating different types of learning content (Video, Quiz, Article) | Centralized and easy content creation |
-| **Factory Method**   | Issuing different types of certificates (Basic vs Premium) | Allows subclasses to decide certificate type |
-| **Abstract Factory** | Creating UI components for different themes (Dark/Light) | Creates families of related UI objects |
-| **Builder**          | Building complex Course objects with optional features (quizzes, certificate, projects) | Handles many optional parameters cleanly |
-| **Prototype**        | Cloning pre-configured Lesson templates                  | Avoids repetitive initialization |
-| **Singleton**        | DatabaseConnection / NotificationService                 | Ensures only one instance exists globally |
+| Pattern              | Implementation Example                          | Justification |
+|----------------------|--------------------------------------------------|-------------|
+| **Simple Factory**   | ContentFactory (Video, Quiz, Article)           | Centralized creation of different learning content types |
+| **Factory Method**   | CertificateFactory (Basic vs Premium)           | Allows subclasses to decide which certificate type to create |
+| **Abstract Factory** | ThemeFactory (DarkTheme vs LightTheme)          | Creates families of related UI components |
+| **Builder**          | CourseBuilder (with optional quizzes, certificate, projects) | Handles complex objects with many optional parameters cleanly |
+| **Prototype**        | LessonTemplate cloning                          | Efficiently creates similar lessons without repetitive initialization |
+| **Singleton**        | DatabaseConnection                              | Ensures only one database connection exists globally |
 
-## 3. Unit Testing
+## 3. Unit Testing (`/tests`)
 
-Unit tests will be added in the `/tests` directory using `pytest`. Tests cover object creation, business rules (e.g., enrollment limit), and edge cases for each pattern.
+- **9 unit tests** written covering core classes and all creational patterns.
+- Tests verify correct object creation, business rules, inheritance, and edge cases.
+- **Test Coverage: 86%**
+
+Tests include:
+- Student enrollment limit enforcement
+- Inheritance and role behavior
+- Progress tracking in Enrollment
+- Individual tests for each of the 6 creational patterns
 
 ## How to Run
 
 ```bash
-cd Assignment\ 10
+cd Assignment 10
 pip install -r requirements.txt
-python -m pytest tests/ -v --cov
+py -m pytest tests/ -v --cov=src --cov=creational_patterns
 ```
-
-**Design Rationale:**  All patterns were chosen to demonstrate real-world usage in an e-learning platform while staying true to the original UML class diagram.
+## Project Structure
+Assignment 10/
+├── src/                    # Core domain classes
+├── creational_patterns/    # All 6 creational patterns
+├── tests/                  # Unit tests
+├── screenshots/            # Test results and coverage report
+├── README.md
+├── CHANGELOG.md
+└── requirements.txt
