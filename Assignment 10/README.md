@@ -52,7 +52,7 @@ Tests include:
 ## How to Run
 
 ```bash
-cd Assignment 10
+cd C:\Users\keoma\the-it-code-academy\Assignment 10
 pip install -r requirements.txt
 py -m pytest tests/ -v --cov=src --cov=creational_patterns
 ```
