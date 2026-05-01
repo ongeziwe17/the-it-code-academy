@@ -1,6 +1,10 @@
 from abc import ABC, abstractmethod
 from typing import List
 
+# Import Enrollment to fix the NameError
+from src.enrollment import Enrollment
+from src.course import Course   # Also good to have for type hints
+
 class User(ABC):
     """Abstract base class for all users in The IT Code Academy"""
     def __init__(self, user_id: int, name: str, email: str):
