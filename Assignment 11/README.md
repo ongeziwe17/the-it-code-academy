@@ -60,7 +60,7 @@ student_repo.save(student)
 
 found = student_repo.find_by_id(1)
 all_students = student_repo.find_all()
-
+```
 ## Why This Matters
 
 - **Separation of Concerns**: Business logic stays independent of storage details.
