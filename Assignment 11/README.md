@@ -49,17 +49,18 @@ Successfully designed and implemented a clean **Repository Layer** that abstract
 
 ```python
 from factories.repository_factory import RepositoryFactory
-from src.student import Student
 
-# Get repository
-student_repo = RepositoryFactory.get_student_repository()
+# Initialize repositories (easy to switch storage type later)
+student_repo = RepositoryFactory.get_student_repository("MEMORY")
+course_repo = RepositoryFactory.get_course_repository("MEMORY")
 
-# Example CRUD operations
-student = Student(student_id=1, first_name="John", last_name="Doe", ...)
-student_repo.save(student)
+# CRUD Examples
+# student = Student(student_id=1, first_name="John", last_name="Doe", ...)
+# student_repo.save(student)
 
-found = student_repo.find_by_id(1)
-all_students = student_repo.find_all()
+# found = student_repo.find_by_id(1)
+# all_students = student_repo.find_all()
+# student_repo.delete(1)
 ```
 ## Why This Matters
 
