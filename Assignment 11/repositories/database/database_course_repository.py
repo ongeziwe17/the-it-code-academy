@@ -8,7 +8,7 @@ class DatabaseCourseRepository(CourseRepository):
     """
     
     def __init__(self):
-        print("🗄️ DatabaseCourseRepository initialized (STUB)")
+        print("DatabaseCourseRepository initialized (STUB)")
 
     def save(self, course):
         raise NotImplementedError("Database implementation coming soon!")
