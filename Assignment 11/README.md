@@ -55,7 +55,7 @@ student_repo = RepositoryFactory.get_student_repository("MEMORY")
 course_repo = RepositoryFactory.get_course_repository("MEMORY")
 
 # CRUD Examples
-# student = Student(student_id=1, first_name="John", last_name="Doe", ...)
+# student = Student(student_id=1, first_name="Keo", last_name="Makhubo", ...)
 # student_repo.save(student)
 
 # found = student_repo.find_by_id(1)
