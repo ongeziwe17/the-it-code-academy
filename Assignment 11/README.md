@@ -4,7 +4,9 @@
 Successfully designed and implemented a clean **Repository Layer** that abstracts storage details behind interfaces, following all assignment requirements.
 
 ## Project Structure
-```
+
+```bash
+Assignment 11/
 ├── repositories/                          # Repository Interfaces
 │   ├── repository.py                      # Generic Repository<T, ID>
 │   ├── student_repository.py
@@ -16,16 +18,15 @@ Successfully designed and implemented a clean **Repository Layer** that abstract
 │   ├── in_memory_instructor_repository.py
 │   ├── in_memory_course_repository.py
 │   └── in_memory_enrollment_repository.py
-├── repositories/database/                 # Future-Proof Stub
-│   └── database_course_repository.py
-├── factories/                             # Storage Abstraction
+├── repositories/database/                 # Future Storage Backends
+│   └── database_course_repository.py      # Stub
+├── factories/                             # Abstraction Mechanism
 │   └── repository_factory.py
-├── tests/                                 # Unit Tests (to be added)
-└── diagrams/                              # Class Diagram
+├── tests/                                 # Unit Tests
+│   └── test_student_repository.py
+└── diagrams/                              # Class Diagrams
 ```
-
 ---
-
 
 ## Design Decisions & Justification
 
