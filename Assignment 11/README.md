@@ -47,20 +47,32 @@ Successfully designed and implemented a clean **Repository Layer** that abstract
 
 ## How to Use
 
+## How to Use
+
 ```python
 from factories.repository_factory import RepositoryFactory
+from src.student import Student
+from src.course import Course
 
-# Initialize repositories (easy to switch storage type later)
-student_repo = RepositoryFactory.get_student_repository("MEMORY")
-course_repo = RepositoryFactory.get_course_repository("MEMORY")
+# Get repositories (in-memory by default)
+student_repo = RepositoryFactory.get_student_repository()
+course_repo = RepositoryFactory.get_course_repository()
 
-# CRUD Examples
-# student = Student(student_id=1, first_name="Keo", last_name="Makhubo", ...)
-# student_repo.save(student)
+# Example: Create and Save a Student
+student = Student(
+    student_id=101,
+    first_name="Keo",
+    last_name="Makhubo",
+    email="keocodes@gmail.com"
+    # Add other required fields as per your Student class
+)
 
-# found = student_repo.find_by_id(1)
-# all_students = student_repo.find_all()
-# student_repo.delete(1)
+student_repo.save(student)
+print("Student saved successfully!")
+
+# Retrieve example
+found = student_repo.find_by_id(101)
+print(f"Found student: {found.first_name if found else None}")
 ```
 ## Why This Matters
 
