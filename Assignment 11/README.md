@@ -85,3 +85,36 @@ print(f"Found student: {found.first_name if found else None}")
 - Full SQL Database implementation (SQLAlchemy)
 - JSON File-based repository
 - Comprehensive unit tests with pytest
+
+---
+
+## Class Diagram (Updated for Repository Layer)
+
+```mermaid
+classDiagram
+    class Repository~T, ID~ {
+        <<interface>>
+        +save(entity: T)
+        +findById(id: ID) T
+        +findAll() List~T~
+        +delete(id: ID)
+    }
+
+    class StudentRepository
+    class InstructorRepository
+    class CourseRepository
+    class EnrollmentRepository
+
+    Repository <|-- StudentRepository
+    Repository <|-- InstructorRepository
+    Repository <|-- CourseRepository
+    Repository <|-- EnrollmentRepository
+
+    class InMemoryStudentRepository
+    class InMemoryCourseRepository
+
+    StudentRepository <|-- InMemoryStudentRepository
+    CourseRepository <|-- InMemoryCourseRepository
+
+    class RepositoryFactory
+---
