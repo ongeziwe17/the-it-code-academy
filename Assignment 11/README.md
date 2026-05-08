@@ -47,8 +47,6 @@ Successfully designed and implemented a clean **Repository Layer** that abstract
 
 ## How to Use
 
-## How to Use
-
 ```python
 from factories.repository_factory import RepositoryFactory
 from src.student import Student
