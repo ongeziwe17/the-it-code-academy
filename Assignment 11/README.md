@@ -85,10 +85,10 @@ print(f"Found student: {found.first_name if found else None}")
 - Full SQL Database implementation (SQLAlchemy)
 - JSON File-based repository
 - Comprehensive unit tests with pytest
-
+```
 ---
 
-## Class Diagram (Updated for Repository Layer)
+## Class Diagram for Repository Layer
 
 ```mermaid
 classDiagram
@@ -117,4 +117,5 @@ classDiagram
     CourseRepository <|-- InMemoryCourseRepository
 
     class RepositoryFactory
+```
 ---
