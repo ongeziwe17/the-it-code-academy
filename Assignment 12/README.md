@@ -28,11 +28,28 @@ Access Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 - FastAPI + Uvicorn
 - Python Service Layer Architecture
-- In-memory storage (with structure ready for Assignment 11 repositories)
+- In-memory storage (structured to easily integrate with Assignment 11 repositories)
 
 ## Deliverables Completed
 
-- Service classes with business logic
-- RESTful endpoints
-- Auto-generated OpenAPI/Swagger documentation
-- Screenshots in `/screenshots/`
+- ✅ Service classes in `/services/` directory (`StudentService`, `CourseService`, `EnrollmentService`)
+- ✅ RESTful API endpoints with business logic
+- ✅ Auto-generated OpenAPI/Swagger documentation
+- ✅ Screenshots of Swagger UI and API testing in `/screenshots/`
+- ✅ `CHANGELOG.md`
+
+## Project Structure
+
+```bash
+Assignment 12/
+├── main.py
+├── services/
+│   ├── student_service.py
+│   ├── course_service.py
+│   └── enrollment_service.py
+├── api/ (optional)
+├── tests/
+├── docs/
+├── screenshots/
+├── README.md
+└── CHANGELOG.md
