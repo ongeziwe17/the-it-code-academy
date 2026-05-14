@@ -1,32 +1,59 @@
-from typing import List, Optional
+import json
+import os
 
 class CourseService:
-    def __init__(self, course_repo):
-        self.course_repo = course_repo
+    """Service layer for Course business logic with persistence"""
+    
+    def __init__(self):
+        self.file_path = "data/courses.json"
+        self.courses = self._load_courses()
 
-    def create_course(self, course_id: int, title: str, description: str, instructor_id: int):
-        """Create new course with validation"""
+    def _load_courses(self):
+        os.makedirs("data", exist_ok=True)
+        if os.path.exists(self.file_path):
+            try:
+                with open(self.file_path, 'r') as f:
+                    return json.load(f)
+            except:
+                return []
+        return []
+
+    def _save_courses(self):
+        with open(self.file_path, 'w') as f:
+            json.dump(self.courses, f, indent=2)
+
+    def create_course(self, course_id: int, title: str, description: str, instructor_id: int = 1):
         if not title:
             raise ValueError("Course title is required")
         
-        try:
-            from src.course import Course
-        except ImportError:
-            try:
-                from Assignment_9.src.course import Course
-            except ImportError:
-                from Assignment_11.src.course import Course
-        
-        course = Course(
-            course_id=course_id,
-            title=title,
-            description=description,
-            instructor_id=instructor_id
-        )
-        return self.course_repo.save(course)
+        course = {
+            "course_id": course_id,
+            "title": title,
+            "description": description,
+            "instructor_id": instructor_id
+        }
+        self.courses.append(course)
+        self._save_courses()
+        return course
 
     def get_all_courses(self):
-        return self.course_repo.find_all()
+        return self.courses
 
-    def get_course_by_id(self, course_id: int):
-        return self.course_repo.find_by_id(course_id)
+    def update_course(self, course_id: int, title: str = None, description: str = None):
+        course = next((c for c in self.courses if c["course_id"] == course_id), None)
+        if not course:
+            raise ValueError(f"Course with ID {course_id} not found")
+        
+        if title: course["title"] = title
+        if description: course["description"] = description
+        self._save_courses()
+        return course
+
+    def delete_course(self, course_id: int):
+        course = next((c for c in self.courses if c["course_id"] == course_id), None)
+        if not course:
+            raise ValueError(f"Course with ID {course_id} not found")
+        
+        self.courses.remove(course)
+        self._save_courses()
+        return f"Course {course_id} deleted successfully"

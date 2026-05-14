@@ -1,0 +1,44 @@
+[
+  {
+    "course_id": 101,
+    "title": "Software Engineering",
+    "description": "Introduction to Applications Development",
+    "instructor_id": 1
+  },
+  {
+    "course_id": 103,
+    "title": "Research Methods",
+    "description": "Qualitative and Quantitative Research Methods",
+    "instructor_id": 2
+  },
+  {
+    "course_id": 104,
+    "title": "Computational Mathematics",
+    "description": "Set Theory",
+    "instructor_id": 3
+  },
+  {
+    "course_id": 102,
+    "title": "Information Systems Theory",
+    "description": "The Six IS Theories",
+    "instructor_id": 3
+  },
+  {
+    "course_id": 105,
+    "title": "Capstone Project",
+    "description": "What is Research Title",
+    "instructor_id": 5
+  },
+  {
+    "course_id": 106,
+    "title": "Database Management Systems",
+    "description": "Relational Data Methods",
+    "instructor_id": 4
+  },
+  {
+    "course_id": 107,
+    "title": "Artificial Intelligence",
+    "description": "Is AI the Next Big Thing?",
+    "instructor_id": 2
+  }
+]
