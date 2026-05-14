@@ -32,11 +32,11 @@ Access Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## Deliverables Completed
 
-- ✅ Service classes in `/services/` directory (`StudentService`, `CourseService`, `EnrollmentService`)
-- ✅ RESTful API endpoints with business logic
-- ✅ Auto-generated OpenAPI/Swagger documentation
-- ✅ Screenshots of Swagger UI and API testing in `/screenshots/`
-- ✅ `CHANGELOG.md`
+- Service classes in `/services/` directory (`StudentService`, `CourseService`, `EnrollmentService`)
+- RESTful API endpoints with business logic
+- Auto-generated OpenAPI/Swagger documentation
+- Screenshots of Swagger UI and API testing in `/screenshots/`
+- `CHANGELOG.md`
 
 ## Project Structure
 
