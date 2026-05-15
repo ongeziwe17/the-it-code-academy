@@ -1,0 +1,51 @@
+[
+  {
+    "student_id": 100,
+    "first_name": "Keo",
+    "last_name": "Codes",
+    "email": "keocodes@theitcode.ac.za",
+    "enrolled_courses": [555, 101, 102, 103, 105]
+  },
+  {
+    "student_id": 200,
+    "first_name": "Tshepo",
+    "last_name": "Pule",
+    "email": "tshepopule@theitcode.ac.za",
+    "enrolled_courses": []
+  },
+  {
+    "student_id": 333,
+    "first_name": "Naledi",
+    "last_name": "Star",
+    "email": "naledistar@theitcode.ac.za",
+    "enrolled_courses": []
+  },
+  {
+    "student_id": 444,
+    "first_name": "Wandile",
+    "last_name": "Mthembu",
+    "email": "wandilemthembu@theitcode.ac.za",
+    "enrolled_courses": []
+  },
+  {
+    "student_id": 555,
+    "first_name": "Lindani",
+    "last_name": "Ndlovu",
+    "email": "lindanindlovu@theitcode.ac.za",
+    "enrolled_courses": []
+  },
+  {
+    "student_id": 666,
+    "first_name": "Karabo",
+    "last_name": "Potso",
+    "email": "karabopotso@theitcode.ac.za",
+    "enrolled_courses": []
+  },
+  {
+    "student_id": 700,
+    "first_name": "Falolang",
+    "last_name": "Mxolisi",
+    "email": "falolangmxolisi@theitcode.ac.za",
+    "enrolled_courses": []
+  }
+]
