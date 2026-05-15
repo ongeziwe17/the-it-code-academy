@@ -55,7 +55,7 @@ Access Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 All required screenshots are available in the screenshots/ folder:
 
-- [Swagger UI](./SPECIFICATION.md)
+- [Swagger UI](./screenshots/swagger-ui.png)
 - [GET Students & Courses](./SPECIFICATION.md)
 - [Enrollment business rule enforcement](./SPECIFICATION.md)
 - [Project folder structure](./SPECIFICATION.md)
