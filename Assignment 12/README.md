@@ -60,8 +60,9 @@ All required screenshots are available in the screenshots/ folder:
 - [POST Courses](./screenshots/create-course.png)
 - [POST Students](./screenshots/create-student.png)
 - [Successful Enrollment](./screenshots/successful-enrollment.png)
-- [Enrollment business rule enforcement](./screenshots/enrollment-limit-error.png)
-- [Project folder structure](./screenshots/assignment-12-Folder.png)
+- [Enrollment Business Rule Enforcement](./screenshots/enrollment-limit-error.png)
+- [Project Folder Structure](./screenshots/assignment-12-Folder.png)
+- [Github Project Board](./screenshots/github-project-board.png)
 
 ## Data Samples & Records
 
