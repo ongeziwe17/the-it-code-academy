@@ -56,9 +56,20 @@ Access Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 All required screenshots are available in the screenshots/ folder:
 
 - [Swagger UI](./screenshots/swagger-ui.png)
-- [GET Students & Courses](./SPECIFICATION.md)
-- [Enrollment business rule enforcement](./SPECIFICATION.md)
-- [Project folder structure](./SPECIFICATION.md)
+- [POST Courses](./screenshots/create-course.png)
+- [POST Students](./screenshots/create-student.png)
+- [Successful Enrollment](./screenshots/successful-enrollment.png)
+- [Enrollment business rule enforcement](./screenshots/enrollment-limit-error.png)
+- [Project folder structure](./screenshots/assignment-12-Folder.png)
+
+## Data Samples & Records
+
+Since the dataset is quite large to capture in screenshots, actual **live data exports** from the API are included:
+
+- **[Courses Record](./data/courses.json)** — Complete list of all courses
+- **[Students Record](./data/students.json)** — Complete list of all students with enrollments
+
+These JSON files represent the current state of the system and serve as evidence of successful CRUD operations and data persistence.
 
 ## GitHub Activity
 
