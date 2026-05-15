@@ -1,22 +1,33 @@
-# Assignment 12: Service Layer and REST API Implementation
+# SERVICE LAYER AND REST API IMPLEMENTATION
 
-## Project Overview
-Implemented a clean **Service Layer** that encapsulates business logic on top of repositories. 
-Exposed via a modern **REST API** using **FastAPI** with automatic Swagger documentation.
+## Overview
+This project implements a clean **Service Layer** that encapsulates business logic on top of the repository pattern. The services are exposed through a modern **REST API** built with **FastAPI**, complete with automatic OpenAPI/Swagger documentation and JSON persistence.
 
-**Entities Covered**: Student, Course, Enrollment (exceeds minimum of 3 entities).
+**Entities Covered**: Student, Course, and Enrollment (exceeding the minimum requirement of 3 entities).
 
-## Key Features
-- **Service Layer** (`/services/`):
-  - `StudentService`
-  - `CourseService` 
-  - `EnrollmentService`
-- **Business Logic Enforced**:
-  - Students cannot enroll in more than **5 courses** (core requirement)
-  - Input validation
-- **REST API Endpoints**:
-  - CRUD operations for Students and Courses
-  - Business workflow: `/api/students/{id}/enroll`
+## Features Implemented
+- **Full CRUD** operations for Students and Courses
+- **Business Logic**: Students cannot enroll in more than **5 courses**
+- **Persistent Storage**: Data is saved in JSON files (`data/` folder) and survives server restarts
+- **Input Validation** and comprehensive error handling
+- **Interactive API Documentation** via Swagger UI
+
+## Project Structure
+```bash
+Assignment 12/
+├── main.py                     # FastAPI application entry point
+├── services/
+│   ├── student_service.py
+│   ├── course_service.py
+│   └── enrollment_service.py
+├── data/                       # JSON persistence files
+├── screenshots/                # Evidence for submission
+├── README.md
+├── CHANGELOG.md
+├── seed_data.py
+├── courses.json
+├── students.json
+└── requirements.txt
 
 ## How to Run
 ```bash
@@ -28,28 +39,30 @@ Access Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 - FastAPI + Uvicorn
 - Python Service Layer Architecture
-- In-memory storage (structured to easily integrate with Assignment 11 repositories)
+- JSON File-based Persistence
+- Pydantic-style validation
 
 ## Deliverables Completed
 
-- Service classes in `/services/` directory (`StudentService`, `CourseService`, `EnrollmentService`)
-- RESTful API endpoints with business logic
+- Service Layer with business logic (/services/)
+- RESTful API with Full CRUD + Enrollment workflow
 - Auto-generated OpenAPI/Swagger documentation
-- Screenshots of Swagger UI and API testing in `/screenshots/`
-- `CHANGELOG.md`
+- Screenshots in /screenshots/ folder
+- Data persistence and seed data
+- CHANGELOG.md
 
-## Project Structure
+## Screenshots
 
-```bash
-Assignment 12/
-├── main.py
-├── services/
-│   ├── student_service.py
-│   ├── course_service.py
-│   └── enrollment_service.py
-├── api/ (optional)
-├── tests/
-├── docs/
-├── screenshots/
-├── README.md
-└── CHANGELOG.md
+All required screenshots are available in the screenshots/ folder:
+
+- Swagger UI
+- GET Students & Courses
+- Enrollment business rule enforcement
+- Project folder structure
+
+## GitHub Activity
+
+- Proper commit history with meaningful messages
+- Project board updated (if applicable)
+
+  ## This submission follows industry best practices for layered architecture (Repository → Service → API).
