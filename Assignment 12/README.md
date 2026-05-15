@@ -55,10 +55,10 @@ Access Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 All required screenshots are available in the screenshots/ folder:
 
-- Swagger UI
-- GET Students & Courses
-- Enrollment business rule enforcement
-- Project folder structure
+- [Swagger UI](./SPECIFICATION.md)
+- [GET Students & Courses](./SPECIFICATION.md)
+- [Enrollment business rule enforcement](./SPECIFICATION.md)
+- [Project folder structure](./SPECIFICATION.md)
 
 ## GitHub Activity
 
