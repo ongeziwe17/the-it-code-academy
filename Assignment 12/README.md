@@ -28,6 +28,7 @@ Assignment 12/
 ├── courses.json
 ├── students.json
 └── requirements.txt
+```
 
 ## How to Run
 ```bash
