@@ -96,15 +96,6 @@ All files are ready for review.
 
 ---
 
-## Author
-
-Student: Keorapetse Makhubo  
-Course: Software Engineering  
-Project: System Specification and Architectural Modeling
-
----
----
-
 ## Assignment 13: CI/CD Pipeline with GitHub Actions
 
 ### How to Run Tests Locally
@@ -121,3 +112,4 @@ python -m pytest tests/ -v
 - **CD Workflow**: Generates and uploads release ZIP artifact on merge to main.
 
 All changes were made through Pull Requests. Pipeline is active and successful.
+**Full details & screenshots**: [Assignment 13/Screenshots](Assignment%13/Screenshots)
