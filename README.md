@@ -103,3 +103,21 @@ Course: Software Engineering
 Project: System Specification and Architectural Modeling
 
 ---
+---
+
+## Assignment 13: CI/CD Pipeline with GitHub Actions
+
+### How to Run Tests Locally
+```bash
+cd "Assignment 12"
+pip install -r requirements.txt
+python -m pytest tests/ -v
+```
+
+## CI/CD Pipeline Overview
+
+- **Branch Protection**: main branch is fully protected (requires PR + approval + passing tests).
+- **CI Workflow** (.github/workflows/ci-cd.yml): Triggers on push and PR to main, runs full test suite.
+- **CD Workflow**: Generates and uploads release ZIP artifact on merge to main.
+
+All changes were made through Pull Requests. Pipeline is active and successful.
