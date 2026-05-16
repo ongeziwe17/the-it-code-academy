@@ -1,30 +1,66 @@
-\# Branch Protection Rules
+\# Branch Protection Rules 
 
 
 
-\## Configured Rules for `main` branch:
-
-\- Require pull request reviews before merging (minimum 1 approval)
-
-\- Require status checks (CI pipeline) to pass
-
-\- No direct pushes to main (all changes via PRs)
+\## Configured Rules for `main` Branch:
 
 
 
-\## Why These Rules Matter (Professional Justification):
+\- Require a pull request before merging  
+
+\- Require at least \*\*1\*\* approving review  
+
+\- Require status checks to pass before merging  
+
+\- Do not allow direct pushes to `main`  
+
+\- Do not allow force pushes  
 
 
 
-\*\*Quality Gatekeeping\*\*: Prevents unreviewed or broken code from reaching production.  
-
-\*\*Enforces Best Practices\*\*: Every change goes through code review and automated testing.  
-
-\*\*Industry Standard\*\*: Used by companies like Google, Microsoft, and Netflix.  
-
-\*\*Risk Reduction\*\*: Catches bugs early and maintains high code quality throughout the semester.
+\---
 
 
 
-This setup ensures \*\*THE IT CODE ACADEMY\*\* codebase remains stable and professional.
+\## Why These Rules Matter (Professional Justification)
+
+
+
+\*\*1. Code Quality \& Safety\*\*  
+
+Prevents untested or unreviewed code from reaching the main branch.
+
+
+
+\*\*2. Automated Enforcement\*\*  
+
+Works together with the GitHub Actions CI pipeline to block failing builds.
+
+
+
+\*\*3. Real Industry Practice\*\*  
+
+This is how professional teams at Google, Microsoft, and others work.
+
+
+
+\*\*4. Learning Outcome\*\*  
+
+Demonstrates proper Git workflow and DevOps practices taught in this module.
+
+
+
+These rules significantly improve the reliability and maintainability of \*\*The IT Code Academy\*\* project.
+
+
+
+\---
+
+
+
+\*\*Student:\*\* Keorapetse Makhubo  
+
+\*\*Assignment 13:\*\* CI/CD with GitHub Actions  
+
+\*\*Date:\*\* May 2026
 
