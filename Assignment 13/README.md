@@ -27,8 +27,6 @@ Completed full CI/CD pipeline for **THE IT CODE ACADEMY** project using GitHub A
 ## Pipeline Status
 CI/CD workflow successfully running on GitHub Actions.
 
----
-
 ## CI/CD Pipeline with GitHub Actions
 
 ### How to Run Tests Locally
