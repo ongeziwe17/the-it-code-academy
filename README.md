@@ -113,4 +113,4 @@ python -m pytest tests/ -v
 
 All changes were made through Pull Requests. Pipeline is active and successful.
 
-**Full details & screenshots**: [Assignment 13/Screenshots](Assignment%13/Screenshots)
+**Full details & screenshots**: [Assignment 13/Screenshots](Assignment%13/Screenshots/)
