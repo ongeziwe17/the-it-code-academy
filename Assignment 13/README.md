@@ -34,3 +34,17 @@ CI/CD workflow successfully running on GitHub Actions.
 cd Assignment\ 12
 pip install -r requirements.txt
 python -m pytest tests/ -v
+```
+
+## CI/CD Pipeline Overview
+- **Branch Protection**: main branch is protected (requires PR + approval + passing tests).
+- **CI Workflow** (.github/workflows/ci-cd.yml):
+Triggers on every push and PR to main.
+Sets up Python 3.11, installs dependencies, and runs full test suite.
+
+- **CD Workflow**:
+On successful merge to main, automatically builds and uploads a release artifact (ZIP of Assignment 12).
+
+All changes were made through Pull Requests, and the pipeline successfully runs on GitHub Actions.
+
+**Screenshots and full documentation**: See [Assignment 13/Screenshots] folder.
