@@ -1,4 +1,4 @@
-name: CI/CD Pipeline - The IT Code Academy
+name: CI/CD Pipeline - THE IT CODE ACADEMY
 
 on:
   push:
@@ -22,16 +22,17 @@ jobs:
         run: |
           cd "Assignment 12"
           pip install -r requirements.txt
+          pip install pytest
 
       - name: Run Tests
         run: |
           cd "Assignment 12"
-          python -m pytest tests/ -v || echo " Tests completed (some tests may be skipped)"
+          python -m pytest tests/ -v --tb=no
 
       - name: Validate FastAPI Application
         run: |
           cd "Assignment 12"
-          echo " FastAPI project structure is valid"
+          echo "FastAPI project structure is valid"
 
   release:
     needs: test
@@ -45,7 +46,7 @@ jobs:
         run: |
           mkdir -p release
           cd "Assignment 12"
-          zip -r ../release/the-it-code-academy-assignment12.zip . -x "*.git*" "__pycache__/*" "*.pyc"
+          zip -r ../release/the-it-code-academy-assignment12.zip . -x "*.git*" "__pycache__/*" "*.pyc" "*.pytest_cache/*"
 
       - name: Upload Release Artifact
         uses: actions/upload-artifact@v4
