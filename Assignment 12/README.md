@@ -28,6 +28,7 @@ Assignment 12/
 ├── courses.json
 ├── students.json
 └── requirements.txt
+```
 
 ## How to Run
 ```bash
@@ -55,10 +56,22 @@ Access Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 All required screenshots are available in the screenshots/ folder:
 
-- Swagger UI
-- GET Students & Courses
-- Enrollment business rule enforcement
-- Project folder structure
+- [Swagger UI](./screenshots/swagger-ui.png)
+- [POST Courses](./screenshots/create-course.png)
+- [POST Students](./screenshots/create-student.png)
+- [Successful Enrollment](./screenshots/successful-enrollment.png)
+- [Enrollment Business Rule Enforcement](./screenshots/enrollment-limit-error.png)
+- [Project Folder Structure](./screenshots/assignment-12-Folder.png)
+- [Github Project Board](./screenshots/github-project-board.png)
+
+## Data Samples & Records
+
+Since the dataset is quite large to capture in screenshots, actual **live data exports** from the API are included:
+
+- **[Courses Record](./data/courses.json)** — Complete list of all courses
+- **[Students Record](./data/students.json)** — Complete list of all students with enrollments
+
+These JSON files represent the current state of the system and serve as evidence of successful CRUD operations and data persistence.
 
 ## GitHub Activity
 
