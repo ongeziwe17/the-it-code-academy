@@ -22,18 +22,12 @@ jobs:
         run: |
           cd "Assignment 12"
           pip install -r requirements.txt
-          pip install pytest pytest-asyncio   # Ensure pytest is available
+          pip install pytest
 
       - name: Run Tests
         run: |
           cd "Assignment 12"
-          # Run tests if folder exists, otherwise show success message
-          if [ -d "tests" ]; then
-            python -m pytest tests/ -v --tb=no || echo "Some tests failed or missing"
-          else
-            echo "No tests folder found yet. Pipeline passes for submission."
-            exit 0
-          fi
+          python -m pytest tests/ -v --tb=no
 
       - name: Validate FastAPI Application
         run: |
@@ -52,5 +46,10 @@ jobs:
         run: |
           mkdir -p release
           cd "Assignment 12"
-          zip -r ../release/the-it-code-academy-assignment12.zip . \
-            -x "*.git*" "__pycache__/*" "*.pyc"
+          zip -r ../release/the-it-code-academy-assignment12.zip . -x "*.git*" "__pycache__/*" "*.pyc" "*.pytest_cache/*"
+
+      - name: Upload Release Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: the-it-code-academy-release
+          path: release/the-it-code-academy-assignment12.zip
