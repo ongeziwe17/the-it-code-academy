@@ -46,7 +46,7 @@ python -m pytest tests/ -v
 ## Screenshots
 All evidence available in the [Screenshots](Screenshots/) folder:
 
-- Branch protection rules
-- GitHub Actions workflow runs
-- Release artifact generation
-- PR workflow examples
+- Branch Protection Rules
+- Successful Workflow + Artifact
+- Blocked PR (failing tests)
+- Test job output
