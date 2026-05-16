@@ -28,8 +28,3 @@ Completed full CI/CD pipeline for **THE IT CODE ACADEMY** project using GitHub A
 CI/CD workflow successfully running on GitHub Actions.
 
 
-
-\*\*Student:\*\* Keorapetse Makhubo  
-
-\*\*Date:\*\* May 2026
-
