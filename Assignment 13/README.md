@@ -47,4 +47,4 @@ On successful merge to main, automatically builds and uploads a release artifact
 
 All changes were made through Pull Requests, and the pipeline successfully runs on GitHub Actions.
 
-**Screenshots and full documentation**: See [](../Screenshots/1.png) folder.
+**Screenshots and full documentation**: See [Screenshots](../Screenshots/) folder.
