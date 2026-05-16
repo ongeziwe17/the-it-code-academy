@@ -1,7 +1,5 @@
 # IMPLEMENTING CI/CD WITH GITHUB ACTIONS
 
-# IMPLEMENTING CI/CD WITH GITHUB ACTIONS
-
 ## Overview
 Completed full CI/CD pipeline for **THE IT CODE ACADEMY** project using GitHub Actions.
 
