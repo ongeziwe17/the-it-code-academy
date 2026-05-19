@@ -14,10 +14,12 @@ The goal is to reduce barriers to digital education by providing an **affordable
 
 ### Quick Local Setup
 
-```bash
+
 # Clone the repository
+```bash
 git clone https://github.com/keo-codes/the-it-code-academy.git
 cd the-it-code-academy
+```
 
 # Backend Setup
 cd "Assignment 12"
