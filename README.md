@@ -10,6 +10,35 @@ The goal is to reduce barriers to digital education by providing an **affordable
 
 ---
 
+## Getting Started
+
+### Quick Local Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/keo-codes/the-it-code-academy.git
+cd the-it-code-academy
+
+# Backend Setup
+cd "Assignment 12"
+pip install -r requirements.txt
+
+# Run tests to verify everything works
+python -m pytest tests/ -v
+
+### Features Open for Contribution
+
+| Feature                        | Status      | Difficulty | Ideal For              |
+|--------------------------------|-------------|------------|------------------------|
+| Redis Caching Layer            | Planned     | Medium     | Backend Developers     |
+| Real-time Notifications        | Planned     | Medium     | Full-stack             |
+| Mobile Responsive Improvements | In Progress | Easy       | Frontend               |
+| Admin Analytics Dashboard      | Planned     | Hard       | Advanced               |
+| Dark Mode Support              | Idea        | Easy       | UI/UX                  |
+| Multi-language Support         | Idea        | Medium     | i18n Contributors      |
+
+---
+
 ## Key Features
 
 - Free ICT and programming lessons  
