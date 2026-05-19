@@ -18,7 +18,7 @@ The goal is to reduce barriers to digital education by providing an **affordable
 # Clone the repository
 git clone https://github.com/keo-codes/the-it-code-academy.git
 cd the-it-code-academy
-
+```
 # Backend Setup
 cd "Assignment 12"
 pip install -r requirements.txt
