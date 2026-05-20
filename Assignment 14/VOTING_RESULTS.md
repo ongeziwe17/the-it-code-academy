@@ -8,13 +8,11 @@
 - **Forks:** 1 
 - **Pull Requests Received:** __ 
 
-## Peer Feedback Summary
+## Real Contributions Received
 
-- Several classmates commented that the repository is very well documented.
-- CONTRIBUTING.md and ROADMAP.md made it easy to understand how to contribute.
-- The clear setup instructions were highly appreciated.
-
-*Will be updated after class peer review*
+- Received 1 Pull Request from external contributor `goli-malika`
+- PR #52: Improved CONTRIBUTING.md (fixed typos, better formatting, and clarity)
+- **Merged successfully**
 
 
 
