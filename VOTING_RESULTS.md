@@ -13,10 +13,11 @@
 - **3+ feature-request** labels created
 - Clear contribution pathways established
 
-## Peer Feedback Summary
-Classmates noted that the repository is well-documented and has a professional structure thanks to CONTRIBUTING.md, ROADMAP.md, and the clear issue labels.
+## Real Contributions Received
 
-*This file will be updated after more classmates review and star/fork the repo.*
+- Received 1 Pull Request from external contributor `goli-malika`
+- PR #52: Improved CONTRIBUTING.md (fixed typos, better formatting, and clarity)
+- **Merged successfully**
 
 
 
