@@ -1,6 +1,6 @@
 # MERGED PULL REQUESTS
 
-## PROJECT 1: Personal Expense Tracker
+## PROJECT 1: [MeiZ-7715/Personal-Expense-Tracker](https://github.com/MeiZ-7715/Personal-Expense-Tracker)
 
 PR Link:
 https://github.com/MeiZ-7715/Personal-Expense-Tracker/pull/11
