@@ -15,7 +15,7 @@ Improve README documentation and fix Markdown formatting issues.
 
 ## PROJECT 2. 
 
-Car Wash Booking System** - [ongeziwe17/carwash-booking-queue-system](https://github.com/ongeziwe17/carwash-booking-queue-system)
+Car Wash Booking System - [ongeziwe17/carwash-booking-queue-system](https://github.com/ongeziwe17/carwash-booking-queue-system)
 
 
 
