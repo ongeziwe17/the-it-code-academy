@@ -68,7 +68,11 @@ Explore the codebase and identify a suitable improvement such as:
 - or minor refactoring for better readability
 
 ## Contribution Status
-Not started – repository reviewed, contribution to be planned in next phase
+PR submitted – awaiting review
+
+## Pull Request
+PR #1  
+https://github.com/Nasiphivundle/Gym-Management-System/pull/1
 
 ## Strategy
 - Clone and run the project locally
