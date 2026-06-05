@@ -57,3 +57,26 @@ https://github.com/ongeziwe17/carwash-booking-queue-system/pull/71
 
 ## Status
 Pull Request Submitted – Awaiting Review
+
+---
+
+## PROJECT 3
+
+### Gym Management System  
+https://github.com/keo-codes/Gym-Management-System
+
+## Planned Contribution
+Explore the codebase and identify a suitable improvement such as:
+- input validation
+- improved error handling
+- or minor refactoring for better readability
+
+## Contribution Status
+Not started – repository reviewed, contribution to be planned in next phase
+
+## Strategy
+- Clone and run the project locally
+- Analyze structure and documentation
+- Identify small, safe improvement area
+- Implement a focused change
+- Submit a pull request
