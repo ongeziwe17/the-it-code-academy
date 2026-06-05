@@ -3,8 +3,8 @@
 **Repository:** https://github.com/keo-codes/the-it-code-academy
 
 ## Current Stats (May 19, 2026)
-- **Stars:** 0 
-- **Forks:** 1 
+- **Stars:** 25 
+- **Forks:** 27 
 - **Open Issues:** 15+
 - **Pull Requests:** 0
 
