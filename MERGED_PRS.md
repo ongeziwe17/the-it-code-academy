@@ -10,4 +10,4 @@ Summary of Changes:
 - Improved documentation clarity.
 - Corrected README formatting issues.
 
-## PROJECT 2: Personal Expense Tracker
+## PROJECT 2: [ongeziwe17/carwash-booking-queue-system](https://github.com/ongeziwe17/carwash-booking-queue-system)
