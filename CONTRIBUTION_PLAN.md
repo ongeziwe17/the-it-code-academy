@@ -2,14 +2,21 @@
 
 ## Selected Projects
 
-1. **AI Adaptive Learning System** - [RodrigueNdzana/AI-Adaptive-Learning-System](https://github.com/RodrigueNdzana/AI-Adaptive-Learning-System)
-   - Focus: Documentation improvements (README, setup instructions)
+## PROJECT #1
+Personal Expense Tracker: [MeiZ-7715/Personal-Expense-Tracker](https://github.com/MeiZ-7715/Personal-Expense-Tracker)
 
-2. **Personal Expense Tracker** - [MeiZ-7715/Personal-Expense-Tracker](https://github.com/MeiZ-7715/Personal-Expense-Tracker)
-   - Focus: README polishing and consistency
+## Planned Contribution
+Improve README documentation and fix Markdown formatting issues.
 
-3. **Car Wash Booking System** - [ongeziwe17/carwash-booking-queue-system](https://github.com/ongeziwe17/carwash-booking-queue-system)
-   - Focus: Documentation + possible small code fix
+## Strategy
+- Focus on documentation improvements.
+- Fix formatting issues affecting readability.
+- Make small, reviewable changes that are easy to merge.
+
+## PROJECT 2. 
+
+Car Wash Booking System** - [ongeziwe17/carwash-booking-queue-system](https://github.com/ongeziwe17/carwash-booking-queue-system)
+
 
 
 
