@@ -4,8 +4,8 @@
 
 ## Current Stats (as of May 19, 2026)
 
-- **Stars:** __ 
-- **Forks:** 1 
+- **Stars:** 25 
+- **Forks:** 27
 - **Pull Requests Received:** __ 
 
 ## Real Contributions Received
