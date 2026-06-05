@@ -1,20 +1,60 @@
-﻿# CONTRIBUTION_PLAN.md
+\# Contribution Plan - Assignment 15
 
-## Projects Selected (3+)
-1. [Peer Project 1](https://github.com/peer-username/repo1) - Good-first-issue
-2. [Peer Project 2](https://github.com/peer-username/repo2) - Help-wanted
-3. [Peer Project 3](https://github.com/peer-username/repo3) - Documentation/Bug fix
 
-## Selected Issues / Features
-- Fix typos and improve README clarity
-- Add missing test cases
-- Improve UI responsiveness or fix small bugs
 
-## Strategy
-- Start with documentation and small fixes (high chance of quick merge)
-- Comment on issues first before working ("I'll work on this")
-- Follow each project's CONTRIBUTING.md and coding style
-- Keep PRs small and focused
-- Aim for 3+ submitted PRs and at least 2 merged
+\## Projects Selected for Contribution
 
-Goal: Learn real collaboration while maximizing marks.
+I plan to contribute to \*\*at least 3 peer projects\*\* from Assignment 14.
+
+
+
+1\. \*\*Project 1\*\* - \[Peer Username/Repo Name](link-to-repo)
+
+&#x20;  - Selected Issue: #XX - \[Issue Title]
+
+&#x20;  - Type: Documentation / Bug fix / Test
+
+
+
+2\. \*\*Project 2\*\* - \[Peer Username/Repo Name](link-to-repo)
+
+&#x20;  - Selected Issue: #XX - \[Issue Title]
+
+&#x20;  - Type: ...
+
+
+
+3\. \*\*Project 3\*\* - \[Peer Username/Repo Name](link-to-repo)
+
+&#x20;  - Selected Issue: #XX - \[Issue Title]
+
+&#x20;  - Type: ...
+
+
+
+\## Contribution Strategy
+
+\- Start with small, low-risk tasks (typos, documentation improvements, README updates).
+
+\- Comment on the issue first saying "I'll work on this" before starting.
+
+\- Follow each project's CONTRIBUTING.md and coding style.
+
+\- Keep PRs small and focused.
+
+\- Write clear commit messages and PR descriptions.
+
+\- Ensure CI passes before submitting.
+
+
+
+\## Timeline
+
+\- Week 1: Identify issues + submit 2-3 PRs
+
+\- Week 2: Address feedback and aim for merges
+
+
+
+\*\*Goal\*\*: Submit at least 3 PRs and get 2+ merged.
+
