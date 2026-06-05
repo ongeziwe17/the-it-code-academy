@@ -1,9 +1,5 @@
 # CONTRIBUTION PLAN - ASSIGNMENT 15
 
-## Selected Projects
-
----
-
 ## PROJECT 1
 
 ### Personal Expense Tracker  
