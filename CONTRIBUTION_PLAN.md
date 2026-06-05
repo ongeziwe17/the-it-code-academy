@@ -11,8 +11,7 @@
 3. **Car Wash Booking System** - [ongeziwe17/carwash-booking-queue-system](https://github.com/ongeziwe17/carwash-booking-queue-system)
    - Focus: Documentation + possible small code fix
 
-4. **Bello Beauty Academy** - [Aaniquah222641495/bello-beauty-academy](https://github.com/Aaniquah222641495/bello-beauty-academy)
-   - Focus: Documentation or tests
+
 
 
 
