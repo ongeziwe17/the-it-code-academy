@@ -9,7 +9,7 @@ This folder contains all deliverables for **Assignment 15**. I contributed to th
 - **[CONTRIBUTIONS.md](./CONTRIBUTIONS.md)** — Main summary of all work completed.
 - **[MERGED_PRS.md](./MERGED_PRS.md)** — Detailed status of all submitted PRs.
 - **[REFLECTION.md](./REFLECTION.md)** — Lessons learned and challenges faced.
-- **Screenshots/** — Evidence of submitted PRs and test/CI results (if available).
+- **Screenshots/** — Evidence of submitted PRs and test/CI results.
 
 ## Submitted Pull Requests
 
