@@ -43,7 +43,7 @@ This file tracks the status of all Pull Requests submitted as part of Assignment
 - Enhanced README structure, headings, and formatting for better readability.
 - Improved consistency in project documentation.
 
-**Status**: Submitted and **awaiting review** (not yet merged).
+**Status**: **MERGED**.
 
 ---
 
