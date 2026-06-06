@@ -39,7 +39,7 @@ Improve README structure, formatting, and consistency to make the project more a
 
 **Strategy**: Focus on documentation first, then explore potential small code improvements if time allows.
 
-**Status**: PR submitted → [PR #1](https://github.com/Nasiphivundle/Gym-Management-System/pull/1) (Awaiting review)
+**Status**: PR submitted → [PR #1](https://github.com/Nasiphivundle/Gym-Management-System/pull/1) (Merged)
 
 ## Overall Contribution Strategy
 - **Prioritize documentation** → High value, low risk, easier to review.
