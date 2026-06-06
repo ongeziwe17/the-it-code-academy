@@ -23,10 +23,10 @@ All PRs were created following the project's guidelines, with clear titles, desc
 3. **Gym Management System** (Nasiphivundle)  
    - [PR #1](https://github.com/Nasiphivundle/Gym-Management-System/pull/1)  
    - **Changes**: Improved README structure and documentation consistency.  
-   - **Status**: Submitted and awaiting review.
+   - **Status**: Merged.
 
 ## 3. Merged PRs
-See [MERGED_PRS.md](./MERGED_PRS.md) for current status (0 merged so far — all awaiting peer review).
+See [MERGED_PRS.md](./MERGED_PRS.md) for current status (1 merged so far — 2 awaiting peer review).
 
 ## 4. Reflection
 See [REFLECTION.md](./REFLECTION.md).
