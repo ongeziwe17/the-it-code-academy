@@ -13,7 +13,7 @@ Improve README documentation and fix Markdown formatting issues (unclosed code b
 
 **Strategy**: Start with quick documentation fixes to demonstrate value quickly.
 
-**Status**: PR submitted → [PR #11](https://github.com/MeiZ-7715/Personal-Expense-Tracker/pull/11) (Awaiting review)
+**Status**: PR submitted → [PR #11](https://github.com/MeiZ-7715/Personal-Expense-Tracker/pull/11) (**Awaiting review**)
 
 ---
 
@@ -27,7 +27,7 @@ Improve API documentation consistency by adding missing Swagger/OpenAPI annotati
 
 **Validation**: Ran full Maven test suite (57 tests passed, 0 failures).
 
-**Status**: PR submitted → [PR #71](https://github.com/ongeziwe17/carwash-booking-queue-system/pull/71) (Awaiting review)
+**Status**: PR submitted → [PR #71](https://github.com/ongeziwe17/carwash-booking-queue-system/pull/71) (**Awaiting review**)
 
 ---
 
@@ -39,7 +39,7 @@ Improve README structure, formatting, and consistency to make the project more a
 
 **Strategy**: Focus on documentation first, then explore potential small code improvements if time allows.
 
-**Status**: PR submitted → [PR #1](https://github.com/Nasiphivundle/Gym-Management-System/pull/1) (Merged)
+**Status**: PR submitted → [PR #1](https://github.com/Nasiphivundle/Gym-Management-System/pull/1) (**Merged**)
 
 ## Overall Contribution Strategy
 - **Prioritize documentation** → High value, low risk, easier to review.
